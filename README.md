@@ -7,6 +7,8 @@ Bookmarklets are bookmarks that run JavaScript code on the current page when cli
 
 This should work on any browser though the installation process will be a little different from browser to browser. The instructions included here are for Chromium-based browsers.
 
+This bookmarklet isn't meant to replace your ad blocker. YouTube is currently waging a war on ad blockers and sometimes uBlock Origin won't work and you'll have to disable it to watch YouTube. When this happens, having this bookmarklet can be handy for skipping unskippable ads.
+
 # Installation
 
 1. Right-click anywhere on your bookmark bar and click "add page..."
@@ -25,7 +27,9 @@ javascript: void(0);(function(){document.querySelectorAll('video')[0].currentTim
 5. Click "save"
 6. Find the bookmarklet if it's hidden or in a folder and move it somewhere accessible on your bookmark bar.
 
-Next time YouTube stops you from watching a video with uBlock on and forces you to disable it and watch an ad, click the "Skip ad" bookmarklet and the ad will skip to the end and auto-click the "skip" button for you.
+# Usage
+
+Next time YouTube stops you from watching a video with uBlock Origin on and forces you to disable it and watch an ad, click the "Skip ad" bookmarklet and the ad will skip to the end and auto-click the "skip" button for you.
 
 Avoid clicking the bookmarklet too many times because if no ad is playing it will skip to the end of your video. I might fix this if it starts to bug me.
 
